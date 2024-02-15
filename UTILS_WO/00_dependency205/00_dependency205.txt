@@ -1,0 +1,9 @@
+cd C:\...\01_INVENTORY\Inventory_02_ui\
+mvn dependency:copy-dependencies
+
+Move
+C:\...\01_INVENTORY\Inventory_02_ui\dependency
+
+to:
+C:\UTILS_WO\00_dependency205\
+
