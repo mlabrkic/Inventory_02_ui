@@ -29,6 +29,19 @@
       <version>2.0.5</version>
     </dependency>
 
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- <dependency> -->
+    <!--   <groupId>org.testng</groupId> -->
+    <!--   <artifactId>testng</artifactId> -->
+    <!--   <version>7.9.0</version> -->
+    <!-- </dependency> -->
+
     <!-- SLF4J NOP Provider » 2.0.11 -->
     <!-- Binding/provider for NOP, an implementation that silently discards all logging messages. -->
     <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
@@ -38,19 +51,6 @@
     <!--   <artifactId>slf4j-nop</artifactId> -->
     <!--   <version>2.0.11</version> -->
     <!--   <scope>test</scope> -->
-    <!-- </dependency> -->
-
-    <!-- <dependency> -->
-    <!--   <groupId>junit</groupId> -->
-    <!--   <artifactId>junit</artifactId> -->
-    <!--   <version>4.13.2</version> -->
-    <!--   <scope>test</scope> -->
-    <!-- </dependency> -->
-
-    <!-- <dependency> -->
-    <!--   <groupId>org.testng</groupId> -->
-    <!--   <artifactId>testng</artifactId> -->
-    <!--   <version>7.9.0</version> -->
     <!-- </dependency> -->
 
   </dependencies>
