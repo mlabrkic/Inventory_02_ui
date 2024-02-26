@@ -6,4 +6,3 @@ C:\...\01_INVENTORY\Inventory_02_ui\target\dependency\
 
 to:
 C:\UTILS_WO\00_dependency205\
-
