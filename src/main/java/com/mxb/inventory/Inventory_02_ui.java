@@ -246,7 +246,7 @@ public class Inventory_02_ui
             scr.wait(0.5);
 
             // ---------------------------------
-            scr.click(p10Shelf_port.similar(0.7).targetOffset(130, 15));
+            scr.click(p10Shelf_port.similar(0.7).targetOffset(90, -3));
             scr.paste(port);
             scr.wait(0.1);
 
@@ -255,7 +255,7 @@ public class Inventory_02_ui
 
             // ---------------------------------
             // scr.click(p9SelectShelf.similar(0.7).targetOffset(260, 134));
-            scr.click(p10Shelf_port.similar(0.7).targetOffset(440, 50));
+            scr.click(p10Shelf_port.similar(0.7).targetOffset(410, 32));
             scr.wait(0.1);
             scr.paste(equipment);
             scr.wait(0.5);   // čekaj 0.5 sekundi
@@ -292,7 +292,7 @@ public class Inventory_02_ui
             scr.wait(p13Select_port);
             System.out.println("found p13Select_port");
 
-            scr.doubleClick(p13Select_port.similar(0.7).targetOffset(80, 219));
+            scr.doubleClick(p13Select_port.similar(0.7).targetOffset(80, 255));
 
             // ---------------------------------
             scr.waitVanish(p13Select_port.similar(0.7));
@@ -308,10 +308,10 @@ public class Inventory_02_ui
             scr.wait(1.0);
 
             Pattern p15Gen_IDa = new Pattern(basePath + "p15Gen_IDa.png");
-            r1Top_GenID.wait(p15Gen_IDa.similar(0.98));
+            r1Top_GenID.wait(p15Gen_IDa.similar(0.7));
             System.out.println("found p15Gen_IDa");
 
-            r1Top_GenID.click(p15Gen_IDa.similar(0.7).targetOffset(-19, 0));
+            r1Top_GenID.click(p15Gen_IDa.similar(0.7).targetOffset(-20, 0));
 
             // ---------------------------------
             Pattern p16Temp_path_name = new Pattern(basePath + "p16Temp_path_name.png");
