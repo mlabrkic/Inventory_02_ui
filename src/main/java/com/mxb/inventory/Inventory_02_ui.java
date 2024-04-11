@@ -146,7 +146,7 @@ public class Inventory_02_ui
             r1Top_GenID.wait(p4SearchResults.similar(0.7));
             System.out.println("found p4SearchResults");
 
-            r1Top_GenID.doubleClick(p4SearchResults.similar(0.7).targetOffset(100, 57));
+            r1Top_GenID.doubleClick(p4SearchResults.similar(0.7).targetOffset(100, 48));
 
             // ---------------------------------
             r1Top_GenID.waitVanish(p4SearchResults.similar(0.7));
@@ -190,7 +190,7 @@ public class Inventory_02_ui
             scr.waitVanish(p7New_UI_name.similar(0.7));
 
             // ---------------------------------
-            scr.wait(5.0);  // wait 5 seconds
+            scr.wait(1.0);  // wait 5 seconds
 
         } catch(FindFailed e) {
             e.printStackTrace();
@@ -228,7 +228,7 @@ public class Inventory_02_ui
 
 
             // #################################
-            scr.wait(2.0);   // wait 2 seconds
+            // scr.wait(2.0);   // wait 2 seconds
 
             scr.wait(1.0);
             scr.type(Key.PAGE_DOWN, Key.CTRL);
@@ -246,7 +246,7 @@ public class Inventory_02_ui
             scr.wait(0.5);
 
             // ---------------------------------
-            scr.click(p10Shelf_port.similar(0.7).targetOffset(90, -3));
+            scr.click(p10Shelf_port.similar(0.7).targetOffset(90, -2));
             scr.paste(port);
             scr.wait(0.1);
 
@@ -254,8 +254,7 @@ public class Inventory_02_ui
             // scr.waitVanish(p11Port.similar(0.88));
 
             // ---------------------------------
-            // scr.click(p9SelectShelf.similar(0.7).targetOffset(260, 134));
-            scr.click(p10Shelf_port.similar(0.7).targetOffset(410, 32));
+            scr.click(p10Shelf_port.similar(0.7).targetOffset(410, 33));
             scr.wait(0.1);
             scr.paste(equipment);
             scr.wait(0.5);   // čekaj 0.5 sekundi
